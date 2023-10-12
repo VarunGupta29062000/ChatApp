@@ -47,7 +47,7 @@ const LoginPage = () => {
       />
       <div className={styles.mainContainer}>
         <div className={styles.container}>
-          <p className={styles.heading}>LOGIN</p>
+          <p className={styles.heading}>CHATTING APP LOGIN</p>
           <div className={styles.wrapper}>
             <input
               type="email"
