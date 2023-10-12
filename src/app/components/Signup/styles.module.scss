@@ -76,10 +76,21 @@
   outline: 2px solid black;
 }
 
-.mainContainer .container .wrapper input[type="number"]::-webkit-inner-spin-button,
-.mainContainer .container .wrapper input[type="number"]::-webkit-outer-spin-button {
+.mainContainer
+  .container
+  .wrapper
+  input[type="number"]::-webkit-inner-spin-button,
+.mainContainer
+  .container
+  .wrapper
+  input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   appearance: none;
+}
+
+.mainContainer .container .wrapper .imageUpload:active,
+.mainContainer .container .wrapper .imageUpload:focus {
+  outline: none;
 }
 
 @media (max-width: 730px) {
